@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		C5BB63D4275AF4AC00C5B97C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB63D3275AF4AC00C5B97C /* AppDelegate.swift */; };
 		C5BB63D6275AF4AC00C5B97C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63D5275AF4AC00C5B97C /* GameScene.sks */; };
-		C5BB63D8275AF4AC00C5B97C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63D7275AF4AC00C5B97C /* Actions.sks */; };
 		C5BB63DA275AF4AC00C5B97C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB63D9275AF4AC00C5B97C /* GameScene.swift */; };
 		C5BB63DC275AF4AC00C5B97C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BB63DB275AF4AC00C5B97C /* GameViewController.swift */; };
 		C5BB63DF275AF4AC00C5B97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63DD275AF4AC00C5B97C /* Main.storyboard */; };
 		C5BB63E1275AF4AD00C5B97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63E0275AF4AD00C5B97C /* Assets.xcassets */; };
 		C5BB63E4275AF4AD00C5B97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63E2275AF4AD00C5B97C /* LaunchScreen.storyboard */; };
+		C5BB63EB275AF87600C5B97C /* TileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = C5BB63EA275AF87600C5B97C /* TileSet.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C5BB63D0275AF4AC00C5B97C /* DeadStormRaisingTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeadStormRaisingTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BB63D3275AF4AC00C5B97C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5BB63D5275AF4AC00C5B97C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		C5BB63D7275AF4AC00C5B97C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		C5BB63D9275AF4AC00C5B97C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C5BB63DB275AF4AC00C5B97C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C5BB63DE275AF4AC00C5B97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5BB63E0275AF4AD00C5B97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5BB63E3275AF4AD00C5B97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5BB63EA275AF87600C5B97C /* TileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TileSet.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 			children = (
 				C5BB63D3275AF4AC00C5B97C /* AppDelegate.swift */,
 				C5BB63D5275AF4AC00C5B97C /* GameScene.sks */,
-				C5BB63D7275AF4AC00C5B97C /* Actions.sks */,
 				C5BB63D9275AF4AC00C5B97C /* GameScene.swift */,
 				C5BB63DB275AF4AC00C5B97C /* GameViewController.swift */,
 				C5BB63DD275AF4AC00C5B97C /* Main.storyboard */,
 				C5BB63E0275AF4AD00C5B97C /* Assets.xcassets */,
+				C5BB63EA275AF87600C5B97C /* TileSet.sks */,
 				C5BB63E2275AF4AD00C5B97C /* LaunchScreen.storyboard */,
 			);
 			path = DeadStormRaisingTV;
@@ -133,7 +133,7 @@
 				C5BB63D6275AF4AC00C5B97C /* GameScene.sks in Resources */,
 				C5BB63E1275AF4AD00C5B97C /* Assets.xcassets in Resources */,
 				C5BB63E4275AF4AD00C5B97C /* LaunchScreen.storyboard in Resources */,
-				C5BB63D8275AF4AC00C5B97C /* Actions.sks in Resources */,
+				C5BB63EB275AF87600C5B97C /* TileSet.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
